@@ -1,0 +1,89 @@
+{
+  "initiativeId": "init-camapp-20260211-0120",
+  "totalInputTokens": 30250,
+  "totalOutputTokens": 23922,
+  "totalCacheCreationTokens": 0,
+  "totalCacheReadTokens": 0,
+  "totalTokens": 54172,
+  "callCount": 7,
+  "cacheHits": 0,
+  "calls": [
+    {
+      "timestamp": "2026-02-11T01:21:19.497Z",
+      "callSite": "tpmIntake",
+      "model": "claude-sonnet-4-5-20250929",
+      "inputTokens": 896,
+      "outputTokens": 2908,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 3804,
+      "cached": false
+    },
+    {
+      "timestamp": "2026-02-11T01:21:42.360Z",
+      "callSite": "tpmGenerateQuestions",
+      "model": "claude-sonnet-4-5-20250929",
+      "inputTokens": 3271,
+      "outputTokens": 969,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 4240,
+      "cached": false
+    },
+    {
+      "timestamp": "2026-02-11T01:23:27.376Z",
+      "callSite": "tpmRefineContract-r1",
+      "model": "claude-sonnet-4-5-20250929",
+      "inputTokens": 3416,
+      "outputTokens": 4390,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 7806,
+      "cached": false
+    },
+    {
+      "timestamp": "2026-02-11T01:23:49.530Z",
+      "callSite": "tpmGenerateQuestions",
+      "model": "claude-sonnet-4-5-20250929",
+      "inputTokens": 4753,
+      "outputTokens": 1123,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 5876,
+      "cached": false
+    },
+    {
+      "timestamp": "2026-02-11T01:25:41.369Z",
+      "callSite": "tpmRefineContract-r2",
+      "model": "claude-sonnet-4-5-20250929",
+      "inputTokens": 5058,
+      "outputTokens": 5974,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 11032,
+      "cached": false
+    },
+    {
+      "timestamp": "2026-02-11T01:26:02.302Z",
+      "callSite": "tpmGenerateQuestions",
+      "model": "claude-sonnet-4-5-20250929",
+      "inputTokens": 6337,
+      "outputTokens": 998,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 7335,
+      "cached": false
+    },
+    {
+      "timestamp": "2026-02-11T01:46:37.981Z",
+      "callSite": "tpmRefineContract-r3",
+      "model": "claude-sonnet-4-5-20250929",
+      "inputTokens": 6519,
+      "outputTokens": 7560,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 14079,
+      "cached": false
+    }
+  ]
+}
